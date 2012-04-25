@@ -1,0 +1,37 @@
+TUntitled
+v7
+r1
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Volumes/kelvsyc/Documents/Academic Work/Misc UW/MatrixGenerator/Untitled/build/Debug/Untitled
+t2
+s0
+
+N/Volumes/kelvsyc/Documents/Academic Work/Misc UW/MatrixGenerator/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/Untitled.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Volumes/kelvsyc/Documents/Academic Work/Misc UW/MatrixGenerator/Untitled/build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Volumes/kelvsyc/Documents/Academic Work/Misc UW/MatrixGenerator/Untitled/main.cpp
+c000000004DE01C17000000000000008F
+t1306532887
+s143
+i<iostream>
+
+CCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/main.o "/Volumes/kelvsyc/Documents/Academic Work/Misc UW/MatrixGenerator/Untitled/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Untitled.build/Debug/Untitled.build/Objects-normal/x86_64/main.o "/Volumes/kelvsyc/Documents/Academic Work/Misc UW/MatrixGenerator/Untitled/main.cpp" normal x86_64 c++ com.apple.compilers.llvmgcc42
+r0
+
+CLd "/Volumes/kelvsyc/Documents/Academic Work/Misc UW/MatrixGenerator/Untitled/build/Debug/Untitled" normal x86_64
+r0
+

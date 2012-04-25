@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4A9D4713A2ECCF008B685A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; };
+		BD58578F14BBFF650090C0D6 /* TrivialDiscriminator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD58578C14B4D42D0090C0D6 /* TrivialDiscriminator.cpp */; };
+		BD84C69E14CF91E7006C991B /* Groups.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD84C69D14CF91E7006C991B /* Groups.cpp */; };
+		BD8ACE3313DA5E4A003624D2 /* Taxonomy1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA5A4C113C3CD6A0039253F /* Taxonomy1.cpp */; };
+		BD8ACE3913E1CFC5003624D2 /* CPlexSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8ACE3813E1CFC5003624D2 /* CPlexSolver.cpp */; };
+		BD8ACE3D13E1E4AC003624D2 /* libcplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8ACE3B13E1E4AC003624D2 /* libcplex.a */; };
+		BD8ACE3E13E1E4AC003624D2 /* libilocplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8ACE3C13E1E4AC003624D2 /* libilocplex.a */; };
+		BD8ACE4013E1E506003624D2 /* libconcert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8ACE3F13E1E506003624D2 /* libconcert.a */; };
+		BD8ACE4213E1E58D003624D2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8ACE4113E1E58D003624D2 /* CoreFoundation.framework */; };
+		BD8ACE4413E1E596003624D2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8ACE4313E1E596003624D2 /* IOKit.framework */; };
+		BD8ACE4613E227AC003624D2 /* KramerMesnerMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8ACE4513E227AC003624D2 /* KramerMesnerMatrix.cpp */; };
+		BD8DF23F14C0DE2E003D46FF /* KMStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8DF23E14C0DE2E003D46FF /* KMStrategy.cpp */; };
+		BD9E5EC314D9B92A00E8BC9B /* Pruner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD9E5EC214D9B92A00E8BC9B /* Pruner.cpp */; };
+		BD9E5EC714D9E7F800E8BC9B /* TablePruner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD9E5EC614D9E7F800E8BC9B /* TablePruner.cpp */; };
+		BDA762F1139057F400133B54 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA762E9139057F400133B54 /* utils.cpp */; };
+		BDA76353139061D900133B54 /* Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA762E5139057F400133B54 /* Group.cpp */; };
+		BDA763A21390695200133B54 /* GInvariant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA762E3139057F400133B54 /* GInvariant.cpp */; };
+		BDA763C213906AB700133B54 /* Discriminator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA762E2139057F400133B54 /* Discriminator.cpp */; };
+		BDA763C313906AB900133B54 /* Taxonomy2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA762E8139057F400133B54 /* Taxonomy2.cpp */; };
+		BDA763FD139071B100133B54 /* AnchorSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA762E1139057F400133B54 /* AnchorSet.cpp */; };
+		BDA764021390722800133B54 /* KMCompute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA762E7139057F400133B54 /* KMCompute.cpp */; };
+		BDA765D3139F06B000133B54 /* KMBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDA765D2139F06B000133B54 /* KMBuilder.cpp */; };
+		BDB5FF9914DC746100DC138C /* ExplicitPruner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDB5FF9814DC746100DC138C /* ExplicitPruner.cpp */; };
+		BDB5FF9C14DC99B900DC138C /* MinRepPruner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDB5FF9B14DC99B900DC138C /* MinRepPruner.cpp */; };
+		BDB5FF9F14E2D91400DC138C /* SetImagePruner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDB5FF9E14E2D91300DC138C /* SetImagePruner.cpp */; };
+		BDB5FFA514E46DE100DC138C /* libboost_timer.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB5FFA214E46DE100DC138C /* libboost_timer.dylib */; };
+		BDB5FFA614E46E8D00DC138C /* libboost_timer.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDB5FFA214E46DE100DC138C /* libboost_timer.dylib */; };
+		BDB5FFAB14E46EAA00DC138C /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB5FFA914E46EAA00DC138C /* libboost_system.dylib */; };
+		BDB5FFAC14E46EAA00DC138C /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB5FFAA14E46EAA00DC138C /* libboost_thread.dylib */; };
+		BDB5FFAD14E46EBD00DC138C /* libboost_system.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDB5FFA914E46EAA00DC138C /* libboost_system.dylib */; };
+		BDB5FFAE14E46EBD00DC138C /* libboost_thread.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDB5FFAA14E46EAA00DC138C /* libboost_thread.dylib */; };
+		BDB5FFB014E46EFC00DC138C /* libboost_chrono.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB5FFAF14E46EFC00DC138C /* libboost_chrono.dylib */; };
+		BDB5FFB114E46F0A00DC138C /* libboost_chrono.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDB5FFAF14E46EFC00DC138C /* libboost_chrono.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				BDB5FFB114E46F0A00DC138C /* libboost_chrono.dylib in CopyFiles */,
+				BDB5FFAD14E46EBD00DC138C /* libboost_system.dylib in CopyFiles */,
+				BDB5FFAE14E46EBD00DC138C /* libboost_thread.dylib in CopyFiles */,
+				BDB5FFA614E46E8D00DC138C /* libboost_timer.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* MatrixGenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MatrixGenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2F13E6144486AA0061E970 /* Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solver.h; sourceTree = "<group>"; };
+		BD4A9F3613A7ADE5008B685A /* KMCompute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCompute.h; sourceTree = "<group>"; };
+		BD58578C14B4D42D0090C0D6 /* TrivialDiscriminator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TrivialDiscriminator.cpp; sourceTree = "<group>"; };
+		BD58578E14B57B800090C0D6 /* TrivialDiscriminator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrivialDiscriminator.h; sourceTree = "<group>"; };
+		BD7E4FD91492D91A009F557B /* Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cache.h; sourceTree = "<group>"; };
+		BD7E4FDA1492D91A009F557B /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		BD7E4FDB1492D91A009F557B /* TaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskQueue.h; sourceTree = "<group>"; };
+		BD84C69C14CF91D8006C991B /* Groups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Groups.h; sourceTree = "<group>"; };
+		BD84C69D14CF91E7006C991B /* Groups.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Groups.cpp; sourceTree = "<group>"; };
+		BD8ACE3813E1CFC5003624D2 /* CPlexSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPlexSolver.cpp; sourceTree = "<group>"; };
+		BD8ACE3A13E1CFD7003624D2 /* CPlexSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlexSolver.h; sourceTree = "<group>"; };
+		BD8ACE3B13E1E4AC003624D2 /* libcplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplex.a; path = "../../../../../../../Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/cplex/lib/x86-64_darwin9_gcc4.0/static_pic/libcplex.a"; sourceTree = "<group>"; };
+		BD8ACE3C13E1E4AC003624D2 /* libilocplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libilocplex.a; path = "../../../../../../../Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/cplex/lib/x86-64_darwin9_gcc4.0/static_pic/libilocplex.a"; sourceTree = "<group>"; };
+		BD8ACE3F13E1E506003624D2 /* libconcert.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconcert.a; path = "../../../../../../../Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/concert/lib/x86-64_darwin9_gcc4.0/static_pic/libconcert.a"; sourceTree = "<group>"; };
+		BD8ACE4113E1E58D003624D2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BD8ACE4313E1E596003624D2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		BD8ACE4513E227AC003624D2 /* KramerMesnerMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KramerMesnerMatrix.cpp; sourceTree = "<group>"; };
+		BD8ACE4713E227C2003624D2 /* KramerMesnerMatrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = KramerMesnerMatrix.h; sourceTree = "<group>"; };
+		BD8DF23D14C0DB44003D46FF /* KMStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMStrategy.h; sourceTree = "<group>"; };
+		BD8DF23E14C0DE2E003D46FF /* KMStrategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KMStrategy.cpp; sourceTree = "<group>"; };
+		BD9E5EC114D99ACF00E8BC9B /* Pruner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pruner.h; sourceTree = "<group>"; };
+		BD9E5EC214D9B92A00E8BC9B /* Pruner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pruner.cpp; sourceTree = "<group>"; };
+		BD9E5EC414D9DE0500E8BC9B /* TablePruner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablePruner.h; sourceTree = "<group>"; };
+		BD9E5EC614D9E7F800E8BC9B /* TablePruner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TablePruner.cpp; sourceTree = "<group>"; };
+		BDA5A4C013C3CD6A0039253F /* Taxonomy1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taxonomy1.h; sourceTree = "<group>"; };
+		BDA5A4C113C3CD6A0039253F /* Taxonomy1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Taxonomy1.cpp; sourceTree = "<group>"; };
+		BDA5A4D913C630950039253F /* LeavittsAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeavittsAlgorithm.h; sourceTree = "<group>"; };
+		BDA5A4DA13C630950039253F /* LeavittsAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeavittsAlgorithm.cpp; sourceTree = "<group>"; };
+		BDA762E1139057F400133B54 /* AnchorSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnchorSet.cpp; sourceTree = "<group>"; };
+		BDA762E2139057F400133B54 /* Discriminator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discriminator.cpp; sourceTree = "<group>"; };
+		BDA762E3139057F400133B54 /* GInvariant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GInvariant.cpp; sourceTree = "<group>"; };
+		BDA762E4139057F400133B54 /* GInvariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GInvariant.h; sourceTree = "<group>"; };
+		BDA762E5139057F400133B54 /* Group.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Group.cpp; sourceTree = "<group>"; };
+		BDA762E6139057F400133B54 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		BDA762E7139057F400133B54 /* KMCompute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KMCompute.cpp; sourceTree = "<group>"; };
+		BDA762E8139057F400133B54 /* Taxonomy2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Taxonomy2.cpp; sourceTree = "<group>"; };
+		BDA762E9139057F400133B54 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		BDA762EA139057F400133B54 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		BDA7632C13905D5E00133B54 /* Taxonomy2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taxonomy2.h; sourceTree = "<group>"; };
+		BDA7633213905E3700133B54 /* Discriminator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Discriminator.h; sourceTree = "<group>"; };
+		BDA764D11394034000133B54 /* AnchorSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorSet.h; sourceTree = "<group>"; };
+		BDA765CD139F011600133B54 /* KMBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBuilder.h; sourceTree = "<group>"; };
+		BDA765D2139F06B000133B54 /* KMBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KMBuilder.cpp; sourceTree = "<group>"; };
+		BDB4FAC81496A73600EF864C /* AdjacencyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdjacencyList.h; sourceTree = "<group>"; };
+		BDB5FF9714DC744A00DC138C /* ExplicitPruner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitPruner.h; sourceTree = "<group>"; };
+		BDB5FF9814DC746100DC138C /* ExplicitPruner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExplicitPruner.cpp; sourceTree = "<group>"; };
+		BDB5FF9A14DC999900DC138C /* MinRepPruner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinRepPruner.h; sourceTree = "<group>"; };
+		BDB5FF9B14DC99B900DC138C /* MinRepPruner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinRepPruner.cpp; sourceTree = "<group>"; };
+		BDB5FF9D14E2D8E200DC138C /* SetImagePruner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetImagePruner.h; sourceTree = "<group>"; };
+		BDB5FF9E14E2D91300DC138C /* SetImagePruner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetImagePruner.cpp; sourceTree = "<group>"; };
+		BDB5FFA214E46DE100DC138C /* libboost_timer.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_timer.dylib; path = ../../../../boost/lib/libboost_timer.dylib; sourceTree = "<group>"; };
+		BDB5FFA914E46EAA00DC138C /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = ../../../../boost/lib/libboost_system.dylib; sourceTree = "<group>"; };
+		BDB5FFAA14E46EAA00DC138C /* libboost_thread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_thread.dylib; path = ../../../../boost/lib/libboost_thread.dylib; sourceTree = "<group>"; };
+		BDB5FFAF14E46EFC00DC138C /* libboost_chrono.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_chrono.dylib; path = ../../../../boost/lib/libboost_chrono.dylib; sourceTree = "<group>"; };
+		BDCEF5A91498284000251282 /* LookupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookupTable.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB5FFAB14E46EAA00DC138C /* libboost_system.dylib in Frameworks */,
+				BDB5FFAC14E46EAA00DC138C /* libboost_thread.dylib in Frameworks */,
+				BDB5FFA514E46DE100DC138C /* libboost_timer.dylib in Frameworks */,
+				BD8ACE4413E1E596003624D2 /* IOKit.framework in Frameworks */,
+				BD8ACE4213E1E58D003624D2 /* CoreFoundation.framework in Frameworks */,
+				BD8ACE4013E1E506003624D2 /* libconcert.a in Frameworks */,
+				BD8ACE3D13E1E4AC003624D2 /* libcplex.a in Frameworks */,
+				BD8ACE3E13E1E4AC003624D2 /* libilocplex.a in Frameworks */,
+				BDB5FFB014E46EFC00DC138C /* libboost_chrono.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* Untitled */ = {
+			isa = PBXGroup;
+			children = (
+				BDB5FFAF14E46EFC00DC138C /* libboost_chrono.dylib */,
+				BDB5FFA914E46EAA00DC138C /* libboost_system.dylib */,
+				BDB5FFAA14E46EAA00DC138C /* libboost_thread.dylib */,
+				BDB5FFA214E46DE100DC138C /* libboost_timer.dylib */,
+				BD8ACE4313E1E596003624D2 /* IOKit.framework */,
+				BD8ACE4113E1E58D003624D2 /* CoreFoundation.framework */,
+				BD8ACE3F13E1E506003624D2 /* libconcert.a */,
+				BD8ACE3B13E1E4AC003624D2 /* libcplex.a */,
+				BD8ACE3C13E1E4AC003624D2 /* libilocplex.a */,
+				BD450E56143A39B000E651FC /* Solver */,
+				BD8ACE4813F0B9FE003624D2 /* Kramer-Mesner Construction */,
+				08FB7795FE84155DC02AAC07 /* Kramer-Mesner Matrix */,
+				BDB4FAC41496A5C500EF864C /* Utilities */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = Untitled;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Kramer-Mesner Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				BDA762E5139057F400133B54 /* Group.cpp */,
+				BDA762E6139057F400133B54 /* Group.h */,
+				BD8ACE4513E227AC003624D2 /* KramerMesnerMatrix.cpp */,
+				BD8ACE4713E227C2003624D2 /* KramerMesnerMatrix.h */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+			);
+			name = "Kramer-Mesner Matrix";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* MatrixGenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD450E56143A39B000E651FC /* Solver */ = {
+			isa = PBXGroup;
+			children = (
+				BD8ACE3713E1CF09003624D2 /* CPLEX Solver */,
+				BDA5A4D713C6305B0039253F /* Leavitt's Algorithm Solver */,
+				BD2F13E6144486AA0061E970 /* Solver.h */,
+			);
+			name = Solver;
+			sourceTree = "<group>";
+		};
+		BD84C69B14CF91B3006C991B /* Pre-Built Groups */ = {
+			isa = PBXGroup;
+			children = (
+				BD84C69C14CF91D8006C991B /* Groups.h */,
+				BD84C69D14CF91E7006C991B /* Groups.cpp */,
+			);
+			name = "Pre-Built Groups";
+			sourceTree = "<group>";
+		};
+		BD8ACE3713E1CF09003624D2 /* CPLEX Solver */ = {
+			isa = PBXGroup;
+			children = (
+				BD8ACE3813E1CFC5003624D2 /* CPlexSolver.cpp */,
+				BD8ACE3A13E1CFD7003624D2 /* CPlexSolver.h */,
+			);
+			name = "CPLEX Solver";
+			sourceTree = "<group>";
+		};
+		BD8ACE4813F0B9FE003624D2 /* Kramer-Mesner Construction */ = {
+			isa = PBXGroup;
+			children = (
+				BD84C69B14CF91B3006C991B /* Pre-Built Groups */,
+				BD9E5EC014D99A5F00E8BC9B /* Pruners */,
+				BD8DF23C14C0DB24003D46FF /* Strategies */,
+				BDCEF5A81496D1A300251282 /* GInvariant Hierarchy */,
+				BDA765D2139F06B000133B54 /* KMBuilder.cpp */,
+				BDA765CD139F011600133B54 /* KMBuilder.h */,
+				BDA762E7139057F400133B54 /* KMCompute.cpp */,
+				BD4A9F3613A7ADE5008B685A /* KMCompute.h */,
+			);
+			name = "Kramer-Mesner Construction";
+			sourceTree = "<group>";
+		};
+		BD8DF23C14C0DB24003D46FF /* Strategies */ = {
+			isa = PBXGroup;
+			children = (
+				BD8DF23D14C0DB44003D46FF /* KMStrategy.h */,
+				BD8DF23E14C0DE2E003D46FF /* KMStrategy.cpp */,
+			);
+			name = Strategies;
+			sourceTree = "<group>";
+		};
+		BD9E5EC014D99A5F00E8BC9B /* Pruners */ = {
+			isa = PBXGroup;
+			children = (
+				BD9E5EC114D99ACF00E8BC9B /* Pruner.h */,
+				BD9E5EC214D9B92A00E8BC9B /* Pruner.cpp */,
+				BD9E5EC414D9DE0500E8BC9B /* TablePruner.h */,
+				BD9E5EC614D9E7F800E8BC9B /* TablePruner.cpp */,
+				BDB5FF9714DC744A00DC138C /* ExplicitPruner.h */,
+				BDB5FF9814DC746100DC138C /* ExplicitPruner.cpp */,
+				BDB5FF9A14DC999900DC138C /* MinRepPruner.h */,
+				BDB5FF9B14DC99B900DC138C /* MinRepPruner.cpp */,
+				BDB5FF9D14E2D8E200DC138C /* SetImagePruner.h */,
+				BDB5FF9E14E2D91300DC138C /* SetImagePruner.cpp */,
+			);
+			name = Pruners;
+			sourceTree = "<group>";
+		};
+		BDA5A4D713C6305B0039253F /* Leavitt's Algorithm Solver */ = {
+			isa = PBXGroup;
+			children = (
+				BDA5A4D913C630950039253F /* LeavittsAlgorithm.h */,
+				BDA5A4DA13C630950039253F /* LeavittsAlgorithm.cpp */,
+			);
+			name = "Leavitt's Algorithm Solver";
+			sourceTree = "<group>";
+		};
+		BDB4FAC41496A5C500EF864C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BD7E4FD91492D91A009F557B /* Cache.h */,
+				BD7E4FDA1492D91A009F557B /* Task.h */,
+				BD7E4FDB1492D91A009F557B /* TaskQueue.h */,
+				BDA762E9139057F400133B54 /* utils.cpp */,
+				BDA762EA139057F400133B54 /* utils.h */,
+				BDB4FAC81496A73600EF864C /* AdjacencyList.h */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		BDCEF5A81496D1A300251282 /* GInvariant Hierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				BDA762E1139057F400133B54 /* AnchorSet.cpp */,
+				BDA764D11394034000133B54 /* AnchorSet.h */,
+				BDA762E2139057F400133B54 /* Discriminator.cpp */,
+				BDA7633213905E3700133B54 /* Discriminator.h */,
+				BDA762E3139057F400133B54 /* GInvariant.cpp */,
+				BDA762E4139057F400133B54 /* GInvariant.h */,
+				BDA762E8139057F400133B54 /* Taxonomy2.cpp */,
+				BDA7632C13905D5E00133B54 /* Taxonomy2.h */,
+				BDA5A4C113C3CD6A0039253F /* Taxonomy1.cpp */,
+				BDA5A4C013C3CD6A0039253F /* Taxonomy1.h */,
+				BD58578C14B4D42D0090C0D6 /* TrivialDiscriminator.cpp */,
+				BD58578E14B57B800090C0D6 /* TrivialDiscriminator.h */,
+				BDCEF5A91498284000251282 /* LookupTable.h */,
+			);
+			name = "GInvariant Hierarchy";
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* MatrixGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "MatrixGenerator" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixGenerator;
+			productInstallPath = "$(HOME)/bin";
+			productName = Untitled;
+			productReference = 8DD76F6C0486A84900D96B5E /* MatrixGenerator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "MatrixGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* Untitled */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* MatrixGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA762F1139057F400133B54 /* utils.cpp in Sources */,
+				BDA76353139061D900133B54 /* Group.cpp in Sources */,
+				BDA763A21390695200133B54 /* GInvariant.cpp in Sources */,
+				BDA763C213906AB700133B54 /* Discriminator.cpp in Sources */,
+				BDA763C313906AB900133B54 /* Taxonomy2.cpp in Sources */,
+				BDA763FD139071B100133B54 /* AnchorSet.cpp in Sources */,
+				BDA764021390722800133B54 /* KMCompute.cpp in Sources */,
+				BDA765D3139F06B000133B54 /* KMBuilder.cpp in Sources */,
+				BD4A9D4713A2ECCF008B685A /* main.cpp in Sources */,
+				BD8ACE3313DA5E4A003624D2 /* Taxonomy1.cpp in Sources */,
+				BD8ACE3913E1CFC5003624D2 /* CPlexSolver.cpp in Sources */,
+				BD8ACE4613E227AC003624D2 /* KramerMesnerMatrix.cpp in Sources */,
+				BD58578F14BBFF650090C0D6 /* TrivialDiscriminator.cpp in Sources */,
+				BD8DF23F14C0DE2E003D46FF /* KMStrategy.cpp in Sources */,
+				BD84C69E14CF91E7006C991B /* Groups.cpp in Sources */,
+				BD9E5EC314D9B92A00E8BC9B /* Pruner.cpp in Sources */,
+				BD9E5EC714D9E7F800E8BC9B /* TablePruner.cpp in Sources */,
+				BDB5FF9914DC746100DC138C /* ExplicitPruner.cpp in Sources */,
+				BDB5FF9C14DC99B900DC138C /* MinRepPruner.cpp in Sources */,
+				BDB5FF9F14E2D91400DC138C /* SetImagePruner.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				INSTALL_PATH = /usr/local/bin;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/cplex/lib/x86-64_darwin9_gcc4.0/static_pic\"",
+					"\"/Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/concert/lib/x86-64_darwin9_gcc4.0/static_pic\"",
+					"\"/Users/kelvSYC/boost/lib\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = MatrixGenerator;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = NO;
+				INSTALL_PATH = /usr/local/bin;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/cplex/lib/x86-64_darwin9_gcc4.0/static_pic\"",
+					"\"/Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/concert/lib/x86-64_darwin9_gcc4.0/static_pic\"",
+					"\"/Users/kelvSYC/boost/lib\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = MatrixGenerator;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					IL_STD,
+					NDEBUG,
+				);
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"~/boost/include",
+					"~/Downloads/permlib-0.2.6-git/include",
+					/sw/include,
+					"~/ILOG/CPLEX_Studio_Preview122/concert/include",
+					"~/ILOG/CPLEX_Studio_Preview122/cplex/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/cplex/lib/x86-64_darwin9_gcc4.0/static_pic\"",
+					"\"/Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/concert/lib/x86-64_darwin9_gcc4.0/static_pic\"",
+					"\"/Users/kelvSYC/boost/lib\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
+					IL_STD,
+					NDEBUG,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"~/boost/include",
+					"~/Downloads/permlib-0.2.6-git/include",
+					/sw/include,
+					"~/ILOG/CPLEX_Studio_Preview122/concert/include",
+					"~/ILOG/CPLEX_Studio_Preview122/cplex/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/cplex/lib/x86-64_darwin9_gcc4.0/static_pic\"",
+					"\"/Users/kelvSYC/ILOG/CPLEX_Studio_Preview122/concert/lib/x86-64_darwin9_gcc4.0/static_pic\"",
+					"\"/Users/kelvSYC/boost/lib\"",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "MatrixGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "MatrixGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

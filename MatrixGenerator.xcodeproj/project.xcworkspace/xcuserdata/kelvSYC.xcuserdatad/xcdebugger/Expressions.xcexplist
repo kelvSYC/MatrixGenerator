@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CacheAdapter2&lt;Discriminator, DiscriminatorEvalCacheEntry&amp;, boost::unordered_map&lt;Discriminator, boost::shared_ptr&lt;DiscriminatorEvalCacheEntry&gt;, boost::hash&lt;Discriminator&gt;, std::equal_to&lt;Discriminator&gt;, std::allocator&lt;std::pair&lt;Discriminator const, boost::shared_ptr&lt;DiscriminatorEvalCacheEntry&gt; &gt; &gt; &gt;, GInvariantInsertDelegate&lt;Discriminator, DiscriminatorEvalCacheEntry&gt; &gt;::query(Discriminator const&amp;):Cache.h">
+      </ContextState>
+      <ContextState
+         contextName = "KMBuilder::addGInvariant(boost::shared_ptr&lt;GInvariant&gt; const&amp;):KMBuilder.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Taxonomy2::evaluate(std::set&lt;unsigned long, std::less&lt;unsigned long&gt;, std::allocator&lt;unsigned long&gt; &gt; const&amp;) const:Taxonomy2.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "B.size()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Discriminator::getInvariant() const:Discriminator.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "FullCandidateGenerator::generateCandidates() const:Pruner.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "boost::detail::shared_count::shared_count(boost::detail::weak_count const&amp;):shared_count.hpp">
+      </ContextState>
+      <ContextState
+         contextName = "MapCache&lt;boost::unordered_map&lt;Discriminator, boost::shared_ptr&lt;DiscriminatorEvalCacheEntry&gt;, boost::hash&lt;Discriminator&gt;, std::equal_to&lt;Discriminator&gt;, std::allocator&lt;std::pair&lt;Discriminator const, boost::shared_ptr&lt;DiscriminatorEvalCacheEntry&gt; &gt; &gt; &gt;, GInvariantInsertDelegate&lt;Discriminator, DiscriminatorEvalCacheEntry&gt; &gt;::query(Discriminator const&amp;):Cache.h">
+      </ContextState>
+      <ContextState
+         contextName = "KMBuilder::build():KMBuilder.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Discriminator::evaluate(std::set&lt;unsigned long, std::less&lt;unsigned long&gt;, std::allocator&lt;unsigned long&gt; &gt; const&amp;) const:Discriminator.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "this-&gt;functions.size()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
